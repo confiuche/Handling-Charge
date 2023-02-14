@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/handling.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>*****INVOICE*****</h1><br>
+        <select name="item" id="item">
+            <option value="mercedes">Select From The Menu</option>
+            <option value="general">General</option>
+            <option value="dg">Dangerous</option>
+          </select>
+          <button id="btnBill" onclick = "opt()">Select</button><br>
+        <label>Weight:</label>
+        <input type="number" id="wt" class="box">
+        <br>
+        <!-- <label>Height:</label>
+        <input type="number" id="height" class="box">
+        <br> -->
+        <button id="btnBill" class="btn" onclick = "getBill()">Get Bill</button>
+        <!-- <h4 id = "amt">Amount: </h4>
+        <h4 id = "vat">Vat7.5%: </h4>
+        <h2 id="bill">Total Amount: </h2> -->
+        <h4 id = "amt"></h4>
+        <h4 id = "vat"></h4>
+        <h4 id = "anlca"></h4>
+        <h2 id="bill"></h2>
+    </div>
+
+
+
+    <!-- <div class="container">
+        <h1>*****INVOICE2*****</h1><br>
+        <select name="item" id="item">
+            <option value="mercedes">Select From The Menu</option>
+            <option value="general">General</option>
+            <option value="dg">Dangerous</option>
+          </select>
+          <button id="btnBill" onclick = "opt()">Select</button><br>
+        <label>Weight:</label>
+        <input type="number" id="wt" class="box">
+        <br>
+        <label>Height:</label>
+        <input type="number" id="height" class="box">
+        <br> 
+        <button id="btnBill" class="btn" onclick = "getBill1()">Get Bill</button>
+        <h4 id = "amt">Amount: </h4>
+        <h4 id = "vat">Vat7.5%: </h4>
+        <h2 id="bill">Total Amount: </h2> 
+        <h4 id = "amt1"></h4>
+        <h4 id = "vat1"></h4>
+        <h4 id = "anlca1"></h4>
+        <h2 id="bill1"></h2>
+    </div> -->
+</body>
+<script src="js/handling.js"></script>
+</html>
